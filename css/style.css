@@ -1,0 +1,63 @@
+/*
+ * Sergio Gongora
+ *  Developed for Project 0 in course CS50's Web Programming with Python and JavaScript
+ */
+
+#mainNav {
+	background-color: #18a2b8;
+	filter: opacity(.97);
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	top: 0;
+	z-index: 1;
+}
+
+#mainNav a {
+	color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: Muli, sans-serif;
+	padding: 25px;
+}
+
+#mainNav a:hover {
+	color: lightgrey;
+}
+
+.firstSection {
+	margin-top: 75px;
+	padding: 50px;
+}
+
+.jumbotron > h1 {
+	color: teal;
+	margin-bottom: 15px;
+}
+
+.jumbotron > p {
+	font-size: 19px;
+	font-family: Muli, sans-serif;
+	color: #222;
+}
+
+.line {
+	height: 1px;
+	background-color: darkgrey;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.myBtn {
+	background-color: #18a2b8;
+	color: white;
+	font-family: Muli, sans-serif;
+	transition: all 0.4s ease-in-out;
+}
+
+.myBtn:hover {
+	transition: all 0.4s ease-in-out;
+	color: #18a2b8;
+	background-color: transparent;
+	border: 2px solid #18a2b8;
+}
