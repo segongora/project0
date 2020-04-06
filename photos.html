@@ -3,58 +3,81 @@
 
 	<head>
 		<meta name="description"
-		 content="Web page designed as Project 0 for CS50's Web Programming with Python and JavaScript">
+			content="Web page designed as Project 0 for CS50's Web Programming with Python and JavaScript">
 		<meta name="author"
-		 content="Sergio Gongora">
+			content="Sergio Gongora">
 		<title>My Project 0 | Sergio Gongora (Photos)</title>
 
 		<!-- Bootstrap core CSS -->
 		<link rel="stylesheet"
-		 href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-		 crossorigin="anonymous">
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous">
 
 		<!-- Custom fonts  -->
 		<link href="https://fonts.googleapis.com/css?family=Muli:200,300,400&amp;display=swap"
-		 rel="stylesheet">
+			rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+			rel="stylesheet">
 
 		<!-- CSS styling -->
 		<link href="css/style.css"
-		 rel="stylesheet">
+			rel="stylesheet">
 	</head>
 
 	<body>
 
 		<nav class="navbar navbar-expand-lg"
-		 id="mainNav">
+			id="mainNav">
 			<div class="container-fluid">
 				<div class="collapse navbar-collapse">
+					<a class="navbar-brand"
+						href="index.html">Project 0</a>
 					<!-- Unordered List -->
+
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item ">
+						<!--	<li class="nav-item ">
 							<a class="nav-link"
-							 href="index.html">Home</a> <!-- First .html -->
-						</li>
+								href="index.html">Home</a>
+						</li> -->
 						<li class="nav-item">
 							<a class="nav-link"
-							 href="photos.html">Photos</a> <!-- Second .html -->
+								href="photos.html">Photos</a> <!-- Second .html -->
 						</li>
 
 						<li class="nav-item ">
 							<a class="nav-link"
-							 data-toggle="modal"
-							 href="about.html">About</a> <!-- Third .html -->
+								data-toggle="modal"
+								href="about.html">About</a> <!-- Third .html -->
 						</li>
 
 						<li class="nav-item">
 							<a class="nav-link"
-							 href="contact.html">Contact</a> <!-- Fourth .html -->
+								href="contact.html">Contact</a> <!-- Fourth .html -->
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 
+		<section id="section-photos">
+			<h1 class="photos-title">Some pictures I took in my semester abroad.</h1>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<img class="pics"
+							src="img/img-2.jpg">
+						<p class="img-caption mx-auto">Me at Buckingham Palace in London, UK.</p>
+					</div>
+					<div class="col-lg-6 col-md-12 col-sm-12">
+						<img class="pics"
+							src="img/img-1.jpg">
+						<p class="img-caption mx-auto">Me at Sagrada Familia in Barcelona, Spain.</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
 	</body>
 
 </html>
