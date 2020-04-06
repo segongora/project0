@@ -25,11 +25,6 @@
 	color: lightgrey;
 }
 
-.firstSection {
-	margin-top: 75px;
-	padding: 50px;
-}
-
 .jumbotron > h1 {
 	color: #4DB6AC;
 }
@@ -66,7 +61,7 @@
 	border: 2px solid #4DB6AC;
 }
 
-#section-photos {
+#index-section, #photos-section, #about-section{
 	margin-top: 80px;
 	padding: 50px;
 	margin-bottom: 75px;
@@ -77,7 +72,7 @@
 	border-radius: 5px;
 }
 
-.photos-title, .home-title {
+.index-title, .photos-title, .about-title {
 	padding-left: 15px;
 	font-weight: 100;
 	font-size: 55px;
