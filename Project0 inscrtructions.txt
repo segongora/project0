@@ -1,7 +1,4 @@
 
-- Your website must include at least one table.
-
-- Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
 
 - Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
 
