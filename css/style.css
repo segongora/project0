@@ -95,6 +95,27 @@
 	width: 75%;
 
 }
+
+.emailBtn, .emailBtn:hover {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Montserrat';
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.me-img {
+	width: 35%;
+	height: 35%;
+	margin-bottom: 35px;
+	border-radius: 7px;
+}
+
+.text-small {
+	font-size: 10px;
+}
+
 @media (min-width: 701px) {
 	.third-pic {
 		margin-top: 125px;
