@@ -30,13 +30,6 @@ $mainColor: #4DB6AC;
 	border: 2px solid $mainColor;
 }
 
-@media (max-width: 700px) {
-	%btnStyle {
-		font-size: 18px;
-		width: 75%;
-	}
-}
-
 .myBtn {
 	@extend %btnStyle;
 	margin-top: 25px;
@@ -59,16 +52,32 @@ $mainColor: #4DB6AC;
 		h5 {
 				font-weight: 200;
 		}
-
 	}
 	img {
-		width: 35%;
-		height: 35%;
+		width: 40%;
+		height: 40%;
 		margin-bottom: 35px;
 		border-radius: 7px;
 	}
-
 	.card-footer {
 		font-size: 10px;
+	}
+}
+
+@media (max-width: 700px) {
+	%btnStyle {
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.card {
+		.card-header {
+			font-size: 25px;
+		}
+		img {
+			width: 75%;
+			height: 75%;
+			margin-bottom: 20px;
+		}
 	}
 }

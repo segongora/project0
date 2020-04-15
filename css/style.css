@@ -29,7 +29,7 @@
 
 .active {
 	pointer-events: none;
-	color: grey;
+	filter: opacity(0.5);
 }
 
 .jumbotron > p {
