@@ -10,7 +10,7 @@ My project consists of a short and brief description of me, my interests and som
 
 It uses 2 different style.css, one being the normal .css stylesheet and the other being the .scss in which I use variables, nesting and inheritance.
 
-Every .html file uses a navigation bar, a component I used from Bootstrap and which at the same time uses an unordered list. The nav bar had a styling so it will stick to the top of the page instead of being left out after scrolling and also color. The buttons used to navigate between the pages had some styling like font, font size and color.
+Every .html file uses a navigation bar, a component I used from Bootstrap and which at the same time uses an unordered list. The nav bar had a styling so it will stick to the top of the page instead of being left out after scrolling and also color. The buttons used to navigate between the pages had some styling like font, font size and color, and have a class to 'deactivate' the button if it's in it's page.
 
 In the first .html (index) is the main page, and I decided to use a Jumbotron to write recent events in my life, with a big title and a button at the end. The title uses a variable for the color given and the button uses inheritance for the styling and variable for the color. The button also redirects to the about page.
 
