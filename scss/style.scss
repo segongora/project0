@@ -1,3 +1,5 @@
+$mainColor: #4DB6AC;
+
 %btnStyle {
 	color: white;
 	font-family: 'Montserrat', sans-serif;
@@ -12,6 +14,20 @@
 %btnStyle-Hover {
 	transition: all 0.4s ease-in-out;
 	background-color: transparent;
+}
+
+
+#mainNav, #navbarToggler, .myBtn, .contact-btn {
+	background-color: $mainColor;
+}
+
+.jumbotron > h1 {
+	color: $mainColor;
+}
+
+.myBtn:hover, .contact-btn:hover {
+	color: $mainColor;
+	border: 2px solid $mainColor;
 }
 
 @media (max-width: 700px) {
@@ -32,4 +48,27 @@
 
 .contact-btn {
 	@extend %btnStyle;
+}
+
+.card {
+	.card-header {
+		font-family: 'Montserrat';
+		font-size: 35px;
+	}
+	.card-body {
+		h5 {
+				font-weight: 200;
+		}
+
+	}
+	img {
+		width: 35%;
+		height: 35%;
+		margin-bottom: 35px;
+		border-radius: 7px;
+	}
+
+	.card-footer {
+		font-size: 10px;
+	}
 }
