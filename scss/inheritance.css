@@ -5,7 +5,8 @@
   transition: all 0.4s ease-in-out;
   display: block;
   text-transform: uppercase;
-  width: 35%; }
+  width: 35%;
+  text-decoration: none; }
 
 .myBtn:hover, .contact-btn:hover {
   transition: all 0.4s ease-in-out;
