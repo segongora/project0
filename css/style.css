@@ -48,20 +48,6 @@
 	margin-bottom: 45px;
 }
 
-.myBtn {
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 23px;
-	transition: all 0.4s ease-in-out;
-	margin-top: 25px;
-	display:  block;
-	width: 35%;
-}
-
-.myBtn:hover {
-	transition: all 0.4s ease-in-out;
-	background-color: transparent;
-}
 
 #index-section, #photos-section, #about-section, #contact-section{
 	margin-top: 80px;
