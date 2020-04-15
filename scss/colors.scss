@@ -12,11 +12,11 @@ $mainColor: #4DB6AC;
 	color: $mainColor;
 }
 
-.myBtn {
+.myBtn, .contact-btn {
 	background-color: $mainColor;
 }
 
-.myBtn:hover {
+.myBtn:hover, .contact-btn:hover {
 	color: $mainColor;
 	border: 2px solid $mainColor;
 }

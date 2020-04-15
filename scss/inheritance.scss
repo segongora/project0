@@ -23,17 +23,12 @@
 .myBtn {
 	@extend %btnStyle;
 	margin-top: 25px;
-
 }
 
-.myBtn:hover {
+.myBtn:hover, .contact-btn:hover {
 	@extend %btnStyle-Hover;
 }
 
 .contact-btn {
 	@extend %btnStyle;
-}
-
-.contact:hover {
-	@extend %btnStyle-Hover;
 }

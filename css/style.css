@@ -27,11 +27,9 @@
 	background-color: white;
 }
 
-
 .active {
 	pointer-events: none;
 	color: grey;
-
 }
 
 .jumbotron > p {
@@ -47,7 +45,6 @@
 	margin-top: 15px;
 	margin-bottom: 45px;
 }
-
 
 #index-section, #photos-section, #about-section, #contact-section{
 	margin-top: 80px;
@@ -78,7 +75,6 @@
 	font-weight: 200;
 	border-bottom: 2px solid #ccc;
 	width: 75%;
-
 }
 
 @media (min-width: 701px) {
@@ -101,11 +97,6 @@
 		padding-left: 0px;
 		font-size: 30px;
 		margin-bottom: 0px;
-	}
-
-	.myBtn {
-		font-size: 18px;
-		width: 50%;
 	}
 
 }
