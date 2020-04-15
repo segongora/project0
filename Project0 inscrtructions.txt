@@ -1,5 +1,5 @@
 
 
-- Your stylesheets must use at least one example of SCSS nesting, and at least one use of SCSS inheritance.
+- Your stylesheets must use at least one use of SCSS inheritance.
 
 - In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
